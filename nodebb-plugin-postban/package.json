@@ -1,0 +1,10 @@
+{
+  "name": "nodebb-plugin-postban",
+  "version": "0.0.1",
+  "description": "Allows you to ban useres for a specific post",
+  "main": "library.js",
+  "dependencies": {
+    "async": "^2.5.0"
+  },
+  "private": true
+}

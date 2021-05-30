@@ -1,0 +1,22 @@
+{
+	"id": "nodebb-plugin-ratings",
+	"name": "Post Ratings",
+	"description": "Adds different ratings to posts.",
+	"url": "https://github.com/scottd564/NodeBB-Plugins",
+	"library": "./library.js",
+	"hooks": [
+		{ "hook": "static:app.load", "method": "init" },
+		{ "hook": "filter:topic.get", "method": "getTopicRatings" },
+		{ "hook": "filter:post.getPosts", "method" : "getPostRatings"}
+	],
+	"staticDirs": {
+		"images": "static/images"
+	},
+	"scripts": [
+		"lib/client.js"
+	],
+	"acpScripts": [
+		"lib/admin.js"
+	],
+	"templates": "./templates"
+}

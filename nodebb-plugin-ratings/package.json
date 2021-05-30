@@ -1,0 +1,11 @@
+{
+  "name": "nodebb-plugin-ratings",
+  "version": "0.0.1",
+  "description": "Post ratings for NodeBB",
+  "main": "library.js",
+  "dependencies": {
+    "async": "^2.5.0",
+    "underscore": "^1.8.3"
+  },
+  "private": true
+}
